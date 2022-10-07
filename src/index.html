@@ -12,11 +12,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="font-Montserrat">
     <nav></nav>
     <div id="tab-bar"></div>
-    <section class="w-full h-screen">
+    <section class="w-full h-auto">
       <div id="home">
         <div class="w-full h-3/4">
           <div
@@ -142,7 +149,7 @@
           Rentas destacadas
         </p>
         <div
-          class="w-full h-auto flex flex-col space-y-6 items-center justify-center"
+          class="w-full h-full flex flex-col space-y-6 items-center justify-center"
         >
           <div class="w-full h-96 bg-bali bg-cover rounded-xl">
             <p class="CardTitle">Bali</p>
@@ -170,7 +177,54 @@
           </div>
         </div>
       </div>
+
+      <div class="w-full h-full lg:px-8" id="faqs">
+        <div class="w-full h-full px-6 flex flex-col space-y-4">
+          <p class="text-3xl text-primary font-semibold mt-6">FAQS</p>
+          <div class="">
+            <p class="text-xl font-medium text-primary">
+              Politica de cancelacion
+            </p>
+            <p class="font-medium pt-2">
+              Para estancias menores a una semana es importante avisar con 3
+              días de anticipación, de caso contario será sancionado.
+            </p>
+          </div>
+
+          <div class="">
+            <p class="text-xl font-medium text-primary">
+              Politica de cancelacion
+            </p>
+            <p class="font-medium pt-2">
+              Para estancias menores a una semana es importante avisar con 3
+              días de anticipación, de caso contario será sancionado.
+            </p>
+          </div>
+
+          <div class="">
+            <p class="text-xl font-medium text-primary">
+              Politica de cancelacion
+            </p>
+            <p class="font-medium pt-2">
+              Para estancias menores a una semana es importante avisar con 3
+              días de anticipación, de caso contario será sancionado.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer></footer>
+
+    <footer
+      class="w-full h-auto bg-gray-50 p-6 mt-8 space-y-2 lg:px-14"
+      id="nosotros"
+    >
+      <p class="text-lg">Acerca de</p>
+      <p class="text-sm text-gray-400">Investing</p>
+      <p class="text-sm text-gray-400">Work with us</p>
+      <p class="text-sm text-gray-400">Terms and conditions</p>
+      <p class="text-sm text-gray-400">Platzi Travel Inc.</p>
+      <i class="fa-brands fa-twitter text-cyan-400"></i>
+      <i class="fa-brands fa-instagram text-purple-400"></i>
+    </footer>
   </body>
 </html>
